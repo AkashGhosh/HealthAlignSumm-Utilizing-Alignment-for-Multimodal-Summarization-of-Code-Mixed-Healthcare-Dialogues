@@ -9,7 +9,9 @@ The proposed model and a few of the baselines is present in the code folder.
 # To run HealthAlignSumm:
 
 First need to train the HealthSumm model using: CUDA_VISIBLE_DEVICES= xxx python HealthSumm.py
+
 Then using the saved model, you need to run: CUDA_VISIBLE_DEVICES= xxx python HealthAlignSummSumm.py
+
 To generate the final summaries: CUDA_VISIBLE_DEVICES= xxx python dpoinference.py 
 
 
