@@ -7,6 +7,7 @@ The dataset used in the paper is present in the Data folder. (It is to be noted 
 The proposed model and a few of the baselines is present in the code folder.
 
 # To run HealthAlignSumm:
+Please download the codes and dataset zip files in the required path 
 
 First need to train the HealthSumm model using: CUDA_VISIBLE_DEVICES= xxx python HealthSumm.py
 
